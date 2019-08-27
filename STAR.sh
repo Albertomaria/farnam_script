@@ -4,7 +4,6 @@
 #SBATCH -N 4 -c 15
 #SBATCH --mem-per-cpu=8000
 #SBATCH --mail-type=ALL
-#SBATCH --mail-user=albertomaria.moro@yale.edu
 
 module use /ysm-gpfs/apps/modules/all
 module load R-bundle-Bioconductor/3.4-foss-2016a-R-3.3.2
